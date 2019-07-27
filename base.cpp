@@ -15,11 +15,12 @@
 #define VEP vector<pair<int,int>>
 #define llong long long
 #define pb(a) push_back(a)
+using namespace std;
 long long GCD(long long a, long long b) {
     if (b == 0) return a;
     else return GCD(b, a % b);
 }
-using namespace std;
+
 int main(){
 
     return 0;
