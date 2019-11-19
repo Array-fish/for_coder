@@ -16,11 +16,12 @@
 #define llong long long
 #define pb(a) push_back(a)
 using namespace std;
+const vector<VE> DIR{ {-1,0},{1,0},{0,-1},{0,1} };
+const int z = 1000000007;
 long long GCD(long long a, long long b) {
     if (b == 0) return a;
     else return GCD(b, a % b);
 }
-
 int main(){
 
     return 0;
